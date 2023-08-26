@@ -1,0 +1,81 @@
+footer {
+    width: 100%;
+    background-color: #23272a;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1260px;
+    width: 100%;
+    margin-inline: auto;
+ 
+}
+.upperFooter {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.icons {
+    margin-top: 20px;
+}
+.icons a i {
+    margin-right: 10px;
+}
+.footerList {
+    grid-column: span 2;
+}
+.footerList h4{
+    color: #404eed;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.list a {
+    display: block;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.selectBox {
+    grid-column: 1/5;
+}
+
+.selectBox select {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+.selectBox select option {
+  background-color: #23272a;
+  color: #fff;
+}
+.selectBox .icons a i {
+  color: #fff;
+}
+.lowerFooter {
+    margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1260px;
+  width: 100%;
+  border-top: 1px solid blue;
+  padding: 1.5rem 2rem 3rem 2rem;
+}
+.lowerFooter svg {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.lowerFooter a { 
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 2rem;
+  background-color: #404eed;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.lowerFooter a:hover { 
+   filter: brightness(145%);
+}

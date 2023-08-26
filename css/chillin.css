@@ -1,0 +1,59 @@
+.stayclose{
+    display: flex;
+    flex-direction: column;
+}
+.chillin {
+    max-width: 1260px;
+    margin-inline: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+ 
+}
+.chillin .chillinBody{
+    grid-column: 4/10;
+    text-align: center;
+}
+.chillin .chillinBody h3 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 2.6rem;
+}
+.chillin .chillinBody p {
+    margin: 1rem 0;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4rem;
+}
+.chillin  img{
+    grid-column: 3/11;
+}
+.stayclose .chillinBtn {
+    width:450px;
+ display: flex ;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-inline: auto;
+ position: relative;
+}
+.chillinBtn h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.chillinBtn img {
+    width: 100%;
+    position: absolute;
+    top:0;
+}
+.chillinBtn a{
+    margin: 50px 0;
+    width: 290px;
+    background-color: #404EED;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 2rem;
+}

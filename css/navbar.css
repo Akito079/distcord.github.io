@@ -1,0 +1,73 @@
+.rspNavBar {
+  width: 350px;
+  height: 100vh;
+  background-color: #ffffff;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  transform: translateX(130%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 1rem;
+  transition: 0.3s;
+}
+.navLogo svg {
+  margin: 1.5rem 0 0 1.3rem;
+}
+.rspNavBar .navLogo {
+  position: relative;
+}
+.rspNavBar .navLogo .fa-xmark {
+  position: fixed;
+  right: 1rem;
+  top: 1.8rem;
+  cursor: pointer;
+
+}
+.rspNavBar .rspList ul {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.rspNavBar .rspList ul li {
+    margin: 0 0 0 1rem;
+  width: 66%;
+  list-style: none;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.rspNavBar .rspList ul li a {
+  color: #23272a;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.rspNavBar .rspList ul li:hover , .rspList .active {
+    background-color: #f6f6f6;
+}
+.rspNavBar .rspList ul li a:hover{
+  text-decoration: underline;
+}
+.rspBtn {
+  margin: 2rem 1rem 2rem 1rem;
+  background-color: #404eed;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  padding: 15px 0;
+  border-radius: 100vw;
+}
+.rspBtn i {
+  margin-right: 5px;
+}
+.rspBtn:hover {
+  background-color: #404eedda;
+  box-shadow:5px 5px 10px 2px #404eed73;
+}
+
+/* media queries */
+@media (max-width: 1024px) {
+  
+}

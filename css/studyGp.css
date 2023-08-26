@@ -1,0 +1,40 @@
+.studyGp {
+    max-width: 1260px;
+    margin-inline: auto;
+    width: 100%;
+    min-height: 486px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+.studyGp img{
+   max-width: 100%;
+   width: 100%;
+    grid-column: 1/7;
+}
+.studyGp .studyBody {
+   grid-column: 8/13;
+}
+.studyGp .studyBody h3 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 2.6rem;
+}
+.studyGp .studyBody p{
+    margin: 1rem 0;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4rem;
+
+}
+ 
+@media screen and (max-width:768px){
+    .studyGp img {
+        grid-column: 1/13;
+    }
+    .studyGp .studyBody {
+        grid-column: 1/13;
+    }
+
+}

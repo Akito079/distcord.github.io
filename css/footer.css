@@ -1,4 +1,5 @@
 footer {
+ 
     width: 100%;
     background-color: #23272a;
 }
@@ -7,7 +8,7 @@ footer {
 .footer {
     display: flex;
     flex-direction: column;
-    max-width: 1260px;
+    max-width: 1190px;
     width: 100%;
     margin-inline: auto;
  
@@ -78,4 +79,34 @@ footer {
 }
 .lowerFooter a:hover { 
    filter: brightness(145%);
+}
+
+@media  screen and (max-width:1024px) {
+  .upperFooter  {
+    grid-template-columns: repeat(8,1fr);
+  }
+  .footerList{
+    margin: 1rem 0;
+  }
+  .selectBox {
+    grid-column: 2/5;
+  }
+  .resp {
+    grid-column: 5/span 2;
+  }
+}
+
+@media  screen and (max-width:768px) {
+  .upperFooter  {
+    grid-template-columns: repeat(4,1fr);
+    margin-inline: auto;
+  }
+  .selectBox {
+    grid-column: 1/5;
+  }
+  .footerList {
+    
+    margin: 1rem 1rem;
+    grid-column: span 2;
+}
 }

@@ -1,5 +1,6 @@
 .rspNavBar {
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   height: 100vh;
   background-color: #ffffff;
   position: fixed;
@@ -9,9 +10,10 @@
   transform: translateX(130%);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
   border-top-left-radius: 1rem;
   transition: 0.3s;
+  padding: 0 30px;
 }
 .navLogo svg {
   margin: 1.5rem 0 0 1.3rem;
@@ -26,16 +28,22 @@
   cursor: pointer;
 
 }
+.border-grey {
+  width:100% ;
+  margin-block:20px;
+
+  height: 2px;
+  background-color: #f7f7f7;
+}
 .rspNavBar .rspList ul {
   display: flex;
   flex-direction: column;
- 
 }
 .rspNavBar .rspList ul li {
+  padding-block: 0.5rem ;
+  padding-left: 1rem;
     margin: 0 0 0 1rem;
-  width: 66%;
   list-style: none;
-  padding: 0.5rem 0 0.5rem 1rem;
   border-radius: 10px;
   transition: 0.8s;
 }
@@ -49,6 +57,9 @@
 }
 .rspNavBar .rspList ul li a:hover{
   text-decoration: underline;
+}
+.grow {
+  flex-grow: 1;
 }
 .rspBtn {
   margin: 2rem 1rem 2rem 1rem;

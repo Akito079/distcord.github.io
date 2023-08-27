@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 .chillin {
-    max-width: 1260px;
+    max-width: 1190px;
     margin-inline: auto;
     width: 100%;
     background-color: #FFFFFF;
@@ -27,9 +27,12 @@
 }
 .chillin  img{
     grid-column: 3/11;
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 .stayclose .chillinBtn {
-    width:450px;
+    max-width:450px;
  display: flex ;
  justify-content: center;
  align-items: center;
@@ -44,6 +47,7 @@
    
 }
 .chillinBtn img {
+    max-width: 100%;
     width: 100%;
     position: absolute;
     top:0;
@@ -56,4 +60,15 @@
     color: #FFFFFF;
     padding: 1rem;
     border-radius: 2rem;
+}
+@media  screen and (max-width:768px) {
+    .chillin .chillinBody h3 {
+        font-size: 2rem;
+     }
+     .chillin  img {
+        grid-column: 2/12;
+     }
+     .chillin .chillinBody  {
+        grid-column: 2/12;
+     }
 }

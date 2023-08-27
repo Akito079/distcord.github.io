@@ -1,5 +1,5 @@
 .studyGp {
-    max-width: 1260px;
+    max-width: 1190x;
     margin-inline: auto;
     width: 100%;
     min-height: 486px;
@@ -31,10 +31,10 @@
  
 @media screen and (max-width:768px){
     .studyGp img {
-        grid-column: 1/13;
+        grid-column: 2/12;
     }
     .studyGp .studyBody {
-        grid-column: 1/13;
+        grid-column: 2/12;
     }
 
 }

@@ -1,5 +1,5 @@
 .hangOut {
-    max-width: 1260px;
+    max-width: 1190px;
     margin-inline: auto;
     width: 100%;
     min-height: 486px;
@@ -32,11 +32,11 @@ object-fit: contain;
 
 @media screen and (max-width:768px) {
     .hangOut .hangBody {
-        grid-column: 1/-1;
+        grid-column: 2/12;
         order: 2;
     }
     .hangOut img {
-        grid-column: 1/-1;
+        grid-column: 2/12;
         order: 1;
     }
 }

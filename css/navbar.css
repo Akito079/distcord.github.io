@@ -62,7 +62,7 @@
   flex-grow: 1;
 }
 .rspBtn {
-  margin: 2rem 1rem 2rem 1rem;
+  margin: 2rem 1rem 4rem 1rem;
   background-color: #404eed;
   color: #ffffff;
   border: none;
@@ -78,7 +78,3 @@
   box-shadow:5px 5px 10px 2px #404eed73;
 }
 
-/* media queries */
-@media (max-width: 1024px) {
-  
-}
